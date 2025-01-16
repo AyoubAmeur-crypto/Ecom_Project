@@ -1,0 +1,271 @@
+/* LOGIN PAGE */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat","Sans-serif";
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    --myprimary : #fb8500
+
+}
+
+
+
+
+body {
+
+    height: 100vh;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+    background-color: rgba(232, 232, 232, 0.612);
+    border-bottom: 2px solid var(--myprimary);
+  }
+
+  .nav img {
+
+    max-width: 120px;
+  }
+  
+  
+  .register {
+
+    display: grid;
+    grid-template-columns: repeat(2,minmax(220px,1fr));
+
+    padding: 20px 80px;
+    gap: 40px;
+  }
+
+  .register .login {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+    background-color: rgba(232, 232, 232, 0.612);
+    border-radius: 14px;
+    max-height: fit-content;
+
+  }
+
+  .register .login h2 span {
+
+    color: var(--myprimary);
+
+
+  }
+
+  .register .login form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .register .login form input {
+
+
+    padding: 10px;
+    border-radius: 14px;
+    border: transparent;
+
+  }
+
+  .register .login form button {
+
+    background: var(--myprimary);
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 14px;
+    color: white;
+
+  }
+  .register .login form .checky {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+
+  }
+
+  .register .login h3 {
+
+    right: 50%;
+  }
+  
+  .otherWays {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .otherWays .boxes {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px 0;
+  }
+  .otherWays .boxes a {
+
+    padding: 10px;
+    background-color: var(--myprimary);
+    color: white;
+    border-radius: 14px;
+    border: transparent;
+
+
+  
+  }
+
+  .register .signup {
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+    background-color: rgba(232, 232, 232, 0.612);
+    border-radius: 14px;
+
+
+  }
+
+  .register .signup h2 span {
+
+    color: var(--myprimary);
+
+
+  }
+
+  .register .signup form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .register .signup form input {
+
+
+    padding: 10px;
+    border-radius: 14px;
+    border: transparent;
+
+  }
+
+
+  .register .signup form button {
+
+    background: var(--myprimary);
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 14px;
+    color: white;
+
+  }
+  .register .signup form .checky {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+
+  }
+
+  .register .signup h3 {
+
+    right: 50%;
+  }
+  
+  .otherWays {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .otherWays .boxes {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px 0;
+  }
+  .otherWays .boxes a {
+
+    padding: 10px;
+    background-color: var(--myprimary);
+    color: white;
+    border-radius: 14px;
+    border: transparent;
+
+
+  
+  }
+
+  .back {
+
+    padding: 0 80px;
+  }
+
+ 
+
+  .back button{
+
+    background-color:var(--myprimary) ;
+    padding: 10px 20px;
+    border-radius: 14px;
+    border: transparent;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+
+
+  }
+
+
+
+  @media (max-width:720px) {
+
+
+    .register {
+
+
+        grid-template-columns: 1fr;
+    }
+    
+    
+  }
+  
+
+  
+  
+  /* LOGIN PAGE */
+  
