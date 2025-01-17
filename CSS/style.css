@@ -1139,26 +1139,50 @@ header {
 
 }
 
-@media (max-width :412px){
+@media (max-width:380px){
 
-  .downHeader {
 
-    padding: 4px;
+  .searchBox {
+
+    
+    padding: 0;
+  }
+  .searchBox input {
+
+    max-width: 220px;
   }
 
-}
+  .downHeader .buttons {
+    
+    margin-left: 90px;
 
-@media (max-width :390px){
 
-  .downHeader {
+  }
+  .downHeader .buttons .firstOne {
 
-    padding: 8px;
-    gap: 140px;
+    margin-bottom: 15px;
+  }
+
+  .downHeader .nav_top {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobileslides {
+
+    
+    padding: 0 0;
+   
+
+  }
+
+  .mobileslides img {
+
+
     width: 100%;
+    max-width:240px ;
   }
-
 }
- 
-
-
-
